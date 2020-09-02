@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  php:
+    ports:
+      - "8080:80"
+    build:
+      context: .
+      dockerfile: ./environment/Dockerfile
+    volumes:
+      - .:/var/www/html

@@ -1,0 +1,16 @@
+{
+    "name": "root/html",
+    "description": "Telegram bot for customer requests",
+    "authors": [
+        {
+            "name": "Ivan Myasoyedov",
+            "email": "ivan.mjasoyedov@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
